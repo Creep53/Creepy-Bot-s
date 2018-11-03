@@ -28,7 +28,7 @@ bot.login("process.env.token");
   });
 */}
 
-bot.on("ready", async () => {
+client.on("ready", () => {
     console.log(`Logged in as ${client.user.tag}!`);
     client.user.setGame("Cp help");
 });
