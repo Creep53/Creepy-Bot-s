@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 var prefix = "Cp ";
 
-const ytdl = require('ytdl-core');
+//const ytdl = require('ytdl-core');
 
 const queue = new Map();
 
@@ -12,7 +12,7 @@ var servers = {};
 
 bot.login("process.env.token");
 
-function play(connection, message) {
+/*function play(connection, message) {
   
   var server = servers[message.guild.id];
 
@@ -26,7 +26,7 @@ function play(connection, message) {
     else connection.disconnect();
 
   });
-}
+*/}
 
 client.on("ready", () => {
 
@@ -220,7 +220,7 @@ client.on('message', async message => {
 
         break;
         
-  case "play":
+ /* case "play":
 
     if (!args[1]) {
 
@@ -285,7 +285,7 @@ client.on('message', async message => {
 
     break;
   
-  }
+  }*/
 
     if(message.content === prefix + "info") {
         var info_embed = new Discord.RichEmbed()
