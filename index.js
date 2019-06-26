@@ -30,7 +30,7 @@ bot.login("process.env.token");
 
 client.on("ready", () => {
     console.log(`Logged in as ${client.user.tag}!`);
-    client.user.setActivity("Cp help ");
+    client.user.setActivity('Cp help', { type: 'WATCHING' });
 });
 
 client.on('message', async message => { 
