@@ -37,7 +37,7 @@
   "description": "Port of TweetNaCl cryptographic library to JavaScript",
   "devDependencies": {
     "browserify": "^13.1.1",
-    "electron": "^1.4.12",
+    "electron": "^9.1.0",
     "eslint": "^3.12.1",
     "faucet": "^0.0.1",
     "tap-browser-color": "^0.1.2",
